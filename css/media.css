@@ -1,0 +1,166 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .container {
+    width: 95% !important;
+  }
+  .navbar {
+    justify-content: center;
+  }
+  .nav_list {
+    display: none;
+  }
+  .header_contant .header_c h1 {
+    font-size: 45px;
+  }
+  .get_touch .section_body {
+    flex-wrap: wrap-reverse;
+  }
+  .contact_form {
+    margin: 0;
+  }
+  .section_head p {
+    font-size: 75px;
+    top: -30px;
+  }
+  .section_body .about_info {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .section_body .about_info .about_info_c {
+    width: 100%;
+    margin: 0;
+  }
+  .about_info_r {
+    margin: 0;
+    width: 100%;
+    text-align: left;
+  }
+  .about_info_r .download_btn {
+    display: block;
+    text-align: center;
+  }
+  .client_box {
+    padding: 30px;
+  }
+  .about_section ul {
+    flex-wrap: wrap;
+  }
+  .about_section ul li {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .about_section span {
+    font-size: 30px;
+  }
+  .about_section p {
+    font-size: 16px;
+  }
+  .w_do .section_body {
+    flex-wrap: wrap;
+  }
+  .w_do .w_box {
+    width: unset;
+    margin-bottom: 20px;
+  }
+  .resume .section_body {
+    flex-wrap: wrap;
+  }
+  .resume_body {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .resume_prograss_box {
+    margin-bottom: 20px;
+  }
+  .download_cv_btn a {
+    display: block;
+  }
+  .portfolio_imgs {
+    flex-wrap: wrap;
+  }
+  .section_body {
+    flex-wrap: wrap;
+  }
+  .get_touch .contact_info {
+    width: 45%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .footer_section .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact_form div {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    width: 95% !important;
+  }
+  .navbar {
+    padding: 20px 10px;
+  }
+  .section_head p {
+    font-size: 100px;
+    top: -45px;
+  }
+  .section_body .about_info {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .section_body .about_info .about_info_c {
+    width: 100%;
+    margin: 0;
+  }
+  .about_info_r {
+    margin: 0;
+    width: 100%;
+    text-align: left;
+  }
+  .about_info_r .download_btn {
+    display: block;
+    text-align: center;
+  }
+  .client_box {
+    padding: 30px;
+  }
+  .get_touch .contact_info {
+    width: 41%;
+    margin-right: 0px;
+  }
+  .contact_form div {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .footer_section .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    width: 95% !important;
+  }
+  .client_box {
+    padding: 30px;
+  }
+  .get_touch .contact_info {
+    width: 30%;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 69% !important;
+  }
+}
